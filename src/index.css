@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sidebar{
+  flex: 2.5;
+}
+.feed{
+  flex:5.5;
+}
+.rightbar{
+  flex: 4;
+}
+.shareInput{
+  border: none;
+  width: 80%;
+}
+.dark .shareInput{
+  border: none;
+  width: 80%;
+  background-color: black;
+}
+
+.shareInput:focus{
+  outline: none !important;
+  border: none !important;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
